@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-//stop on 26:30 minutes
+//stop on 34:00 minutes
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import {logo, menu, close } from '../assets';
 
 
 const Navbar = () => {
@@ -23,9 +23,30 @@ const Navbar = () => {
            window.scrollTo(0, 0);          
           }}>
             <img src={logo} alt='logo' 
-            className='w-9 h-9 object-contain' />
+            className='w-20 h-22 object-contain'/>
 
+            <p className='text-white text-[18px]
+                font-bold cursor-pointer ml-4'>
+                    Carlos Eduardo 
+                <span className='sm:block hidden'>
+                   | Front End Developer
+                </span>
+            </p>
          </Link> 
+
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+            {navLinks.map((link) => (
+              <li key={link.id}
+                  className={` ${active === link.title 
+                                 ? "text-white" 
+                                 : "text-secondary" }
+                                 hover:text-white text-[18px] front-medium cursos-pointer`}
+                                 onClick={() => setActive(link.title)}
+                                 >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
       </div> 
     </nav>
   )
