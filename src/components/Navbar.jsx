@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import {logo, menu, close } from '../assets';
-//stop on 34:00 minutes
+//stop on 40:00 minutes
 
 const Navbar = () => {
   const [ active, setActive ] = useState('');
