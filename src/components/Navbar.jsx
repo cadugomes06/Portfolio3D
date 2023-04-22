@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import {logo, menu, close } from '../assets';
+import {logo182, menu, close } from '../assets';
 //stop on 40:00 minutes
 
 const Navbar = () => {
@@ -22,14 +22,14 @@ const Navbar = () => {
            onClick={() => {setActive("");
            window.scrollTo(0, 0);          
           }}>
-            <img src={logo} alt='logo' 
-            className='w-20 h-22 object-contain rounded-md'/>
+            <img src={logo182} alt='logo' 
+            className='w-12 h-14 object-contain rounded-md'/>
 
             <p className='text-white text-[18px]
                 font-bold cursor-pointer flex'>
                    &nbsp; Carlos Eduardo &nbsp;
                 <span className='sm:block hidden'>
-                   | Front End Developer
+                   | Web Developer
                 </span>
             </p>
          </Link> 
