@@ -23,7 +23,7 @@ const Navbar = () => {
            window.scrollTo(0, 0);          
           }}>
             <img src={logo182} alt='logo' 
-            className='w-12 h-14 object-contain rounded-md'/>
+            className='w-6 h-8 object-contain rounded-md'/>
 
             <p className='text-white text-[18px]
                 font-bold cursor-pointer flex'>
