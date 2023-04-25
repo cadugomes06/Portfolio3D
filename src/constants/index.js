@@ -27,16 +27,16 @@ import {
   
   export const navLinks = [
     {
-      id: "Sobre",
-      title: "About",
+      id: "about",
+      title: "Sobre",
     },
     {
-      id: "Experiências",
-      title: "Work",
+      id: "work",
+      title: "Trabalhos",
     },
     {
-      id: "Contatos",
-      title: "Contact",
+      id: "contact",
+      title: "Contatos",
     },
   ];
   
@@ -116,57 +116,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Consultor de vendas e assitência de software IOS",
+      company_name: "iPlace",
+      icon: '',
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Novembro 2019 - Novembro 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsável pela apresentação dos produtos Apple direto aos clientes.",
+        "Entender e ter amplo conhecimento do sistema operacional IOS.",
+        "Dar assistência de software nos smartphones de clientes.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Desenvolvedor Front End",
+      company_name: "Freelancer",
+      icon: '',
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Novembro 2021 - Atual",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsável por desenvolver interfaces de usuário, landing pages e páginas institucionais.",
+        "Usando tecnologias com React, JavaScript, HTML e CSS. E trabalhando consumindo APIs com Context e Axios.",
+        "Dar manutenção e resolver erros nos sistemas client side.",
+        "Prototipar projetos usando o Figma.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
