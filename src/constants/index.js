@@ -10,19 +10,19 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    iplace,
+    mylogo,
+    lab,
+    moneycontroller,
+    lesscone,
+    mytube,
+    scrillix,
+    socialdogs,
+    brovick,
+    hoobank,
+    fitnessapp,
   } from "../assets";
   
   export const navLinks = [
@@ -102,8 +102,8 @@ import {
     {
       title: "Consultor de vendas e assitência de software IOS",
       company_name: "iPlace",
-      icon: '',
-      iconBg: "#383E56",
+      icon: iplace,
+      iconBg: "#E6DEDD",
       date: "Novembro 2019 - Novembro 2020",
       points: [
         "Responsável pela apresentação dos produtos Apple direto aos clientes.",
@@ -114,7 +114,7 @@ import {
     {
       title: "Desenvolvedor Front End",
       company_name: "Freelancer",
-      icon: '',
+      icon: mylogo,
       iconBg: "#E6DEDD",
       date: "Novembro 2021 - Atual",
       points: [
@@ -156,67 +156,194 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MyTube",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Projeto criado utilizando uma API do youtube. Como admirador da plataforma, fiquei inspirado em criar uma versão dessa grande plataforma.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
+        },
+        {
+          name: "MaterialUI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mytube,
+      source_code_link: "https://github.com/cadugomes06/YouTube-clone-",
+      source_view_link: "https://maiyoutube.netlify.app/"
+    },
+    {
+      name: "HooBank",
+      description:
+        "Um banco digital com design super moderno extraido de um projeto no Figma, utilizando Tailwind e React. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hoobank,
+      source_code_link: "https://github.com/cadugomes06/banco-Hoobank",
+      source_view_link: 'https://hoobank.netlify.app/'
+    },
+    {
+      name: "Money-controller",
+      description:
+        "Um grande App de controle financeiro. Um software que me ajuda de forma simples a por valores de entra e saída, e descrever os gastos com produtos e serviços.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: moneycontroller,
+      source_code_link: "https://github.com/cadugomes06/money-controller",
+      source_view_link: 'https://moneycontroller.netlify.app/'
     },
     {
-      name: "Job IT",
+      name: "SocialDogs",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Isso mesmo, uma social para cachorros! Nessa rede social é possível criar sua conta, postar fotos no feed e ainda interagir com outros usuários.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "useContext",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: socialdogs,
+      source_code_link: "https://github.com/cadugomes06/Social-Dogs",
+      source_view_link: 'https://socialdogs.netlify.app/'
     },
     {
-      name: "Trip Guide",
+      name: "Preparador de exame",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Projeto criado para o maior laboratório clínico da minha cidade (Hemolabes). Sendo capaz de gerar instruções de exames dinâmicamente e armazenar arquivos de forma organizada.",
       tags: [
         {
-          name: "nextjs",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "HTML",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: lab,
+      source_code_link: "https://github.com/cadugomes06/Preparo-de-Exame",
+      source_view_link: 'https://preparo.netlify.app/'
+    },
+    {
+      name: "Fitness App",
+      description:
+        "Um aplicativo de exercícios online. Com esse super App você pode visualizar grupos de exercícios para montar seu treino e aprender com movimento com cada animação.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MaterialUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fitnessapp,
+      source_code_link: "https://github.com/cadugomes06/Fitness-app",
+      source_view_link: 'https://fitnessbox-app.netlify.app/'
+    },
+    {
+      name: "Relojoaria Brovick",
+      description:
+        "Uma loja virtual de relógios. sendo capaz de simular uma comprar de e-commerce até o setor de carrinho com produtos e contagem",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brovick,
+      source_code_link: "https://github.com/cadugomes06/relojoaria-brovick",
+      source_view_link: 'https://brovick.netlify.app/'
+    },
+    {
+      name: "YouthGlass",
+      description:
+        "Uma loja de institucional de óculos com 7 páginas bem estilizadas. A youthGlass é uma marca de óculos com público jovem.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: scrillix,
+      source_code_link: "https://github.com/cadugomes06/youthGlass",
+      source_view_link: 'https://youthglass.netlify.app/'
+    },
+    {
+      name: "Restaurante Less Cone",
+      description:
+        "Um restaurante incrível feito utilizando HTML e CSS com SASS para sua estilização e reaproveitamento de estilo.",
+      tags: [
+        {
+          name: "SASS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+      ],
+      image: lesscone,
+      source_code_link: "https://github.com/cadugomes06/Restaurante-Les-cone",
+      source_view_link: 'https://lesscone.netlify.app/'
     },
   ];
   
